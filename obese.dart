@@ -34,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
       new Container(
         decoration: new BoxDecoration(
           image: new DecorationImage(
-            image: new AssetImage("assets/obese.png"),
+            image: new AssetImage("assets/heal.png"),
             fit: BoxFit.cover,
           ),
         ),
@@ -60,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
     new Padding(
     child:
             new Text(
-              "OBESE!",
+              "HEALTHY!",
               style: new TextStyle(fontSize:48.0,
                   color: const Color(0xFF000000),
                   fontWeight: FontWeight.w400,
@@ -73,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
             new Padding(
               child:
               new Text(
-                "Oh no! You've been keeping busy",
+                "Congrats!",
                 style: new TextStyle(fontSize:19.0,
                     color: const Color(0xFF000000),
                     fontWeight: FontWeight.w300,
@@ -86,7 +86,7 @@ class _MyHomePageState extends State<MyHomePage> {
             new Padding(
               child:
               new Text(
-                "but maintaining very important!",
+                "you have been keeping busy! maintaining your body",
                 style: new TextStyle(fontSize:19.0,
                     color: const Color(0xFF000000),
                     fontWeight: FontWeight.w300,
@@ -99,7 +99,7 @@ class _MyHomePageState extends State<MyHomePage> {
             new Padding(
               child:
               new Text(
-                "Lets begin to make it better!",
+                "Do continue it making it better!",
                 style: new TextStyle(fontSize:19.0,
                     color: const Color(0xFF000000),
                     fontWeight: FontWeight.w300,
@@ -125,7 +125,7 @@ class _MyHomePageState extends State<MyHomePage> {
             new Padding(
               child:
               new Text(
-                "1000",
+                "1450",
                 style: new TextStyle(fontSize:37.0,
                     color: const Color(0xFF000000),
                     fontWeight: FontWeight.w700,
@@ -155,7 +155,7 @@ class _MyHomePageState extends State<MyHomePage> {
     padding: const EdgeInsets.fromLTRB(0.0, 0.0, 30.0, 30.0),
     child: new FloatingActionButton(
           tooltip: 'Next', // used by assistive technologies
-        backgroundColor: const Color(0xFFFDC402),
+        backgroundColor: const Color(0xFFA2C101),
           foregroundColor: const Color(0xFF262626),
           child: new Icon(Icons.arrow_forward),
           onPressed: () {
